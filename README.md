@@ -31,7 +31,7 @@ Line #    Mem usage    Increment   Line Contents
      5                             def main():
      6 2607.359 MiB 2596.398 MiB       l = [0] * 1000000000
 ```
-3. There is a perforamce difference between two types of 'for' loop command.　　
+3. There is a perforamce difference between two types of 'for' loop command　from about 20% to 30%.　　
 
 (1)Normal
 ```py
