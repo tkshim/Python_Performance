@@ -42,6 +42,7 @@ Line #    Mem usage    Increment   Line Contents
 ```py
 num_list = [i * 2 for i in range(10**z)]
 ```
+　　
 Result　　
 　　
 ![Performance Difference](https://github.com/tkshim/Picture/blob/master/diff_perform_python.png)
