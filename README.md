@@ -1,9 +1,9 @@
 1. install memory_profiler
 #pip install -U memory_profiler
 
-'''py
-2. check memory performance
 
+2. check memory performance
+```py
 python -m memory_profiler memtest01.py 
 Filename: memtest.py
 
@@ -30,6 +30,6 @@ Line #    Mem usage    Increment   Line Contents
      4   10.961 MiB   10.961 MiB   @profile
      5                             def main():
      6 2607.359 MiB 2596.398 MiB       l = [0] * 1000000000
-'''py
+```py
 
 ![Performance Difference](https://github.com/tkshim/Picture/blob/master/diff_perform_python.png)
