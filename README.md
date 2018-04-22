@@ -31,5 +31,14 @@ Line #    Mem usage    Increment   Line Contents
      5                             def main():
      6 2607.359 MiB 2596.398 MiB       l = [0] * 1000000000
 ```
-There is a perforamce difference between two types of 'for' loop command.
+3. There is a perforamce difference between two types of 'for' loop command.
+(1)Normal
+```py
+    for i in range(10**z):
+        num_list.append(i*2)   
+```
+(1)Fast 
+```py
+num_list = [i * 2 for i in range(10**z)]
+```
 ![Performance Difference](https://github.com/tkshim/Picture/blob/master/diff_perform_python.png)
