@@ -30,3 +30,4 @@ Line #    Mem usage    Increment   Line Contents
      5                             def main():
      6 2607.359 MiB 2596.398 MiB       l = [0] * 1000000000
 
+https://github.com/tkshim/Picture/blob/master/diff_perform_python.png
